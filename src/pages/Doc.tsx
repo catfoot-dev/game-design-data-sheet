@@ -9,7 +9,7 @@ export default function Doc() {
 
   useEffect(() => {
     (async () => {
-      const res = await fetch('https://github.com/catfoot-dev/game-design-data-sheet/blob/main/README.md?raw=true');
+      const res = await fetch('./readme.md');
       setMarkdown(await res.text());
     })();
   }, []);

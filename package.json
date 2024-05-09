@@ -30,8 +30,8 @@
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cp ./README.md ./public/readme.md && react-scripts start",
+    "build": "cp ./README.md ./public/readme.md && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
